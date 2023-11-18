@@ -1,36 +1,37 @@
 import styled from '@emotion/styled';
 
 export const List = styled.ul`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  row-gap: 10px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+width: 400px;
+padding: 12px;
+border-radius: 4px;
+background-color: rgba(0, 0, 0, 0.6);
+border: 3px solid Lime;
+list-style: none;
 `;
 
 export const ListItem = styled.li`
-  display: flex;
-  align-items: center;
-  column-gap: 10px;
-  color: white;
+background-color: #ffffff;
+border: 3px solid Lime;
+padding: 10px;
+border-radius: 4px;
+margin-bottom: 5px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+font-size: 20px;
 `;
 
 export const Button = styled.button`
-  padding: 5px 10px;
-  min-width: 80px;
-  font-family: inherit;
-  font-size: 16px;
-
-  margin: 0;
-  margin-left: auto;
-
-  background-color: white;
-  border: 2px black solid;
-  border-radius: 5px;
-
-  font-size: 16px;
-  font-family: inherit;
+padding: 4px 8px;
+font: inherit;
+cursor: pointer;
+border-radius: 4px 8px;
+border: 3px solid Lime;
 `;
 
 export const NoContacts = styled.p`
-  color: white;
+  color: black;
 `;
