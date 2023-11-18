@@ -12,11 +12,9 @@ export const ContactList = () => {
     contact?.name?.toLowerCase().includes(filter.toLowerCase())
   );
 
-  if (!filteredContacts?.length) {
+  if (!filteredContacts?.length) 
     return <NoContacts>No contacts added yet.</NoContacts>;
-  }
-
-  return (
+  else return (
     <List>
       {filteredContacts.map(({ id, name, number }, idx) => (
         <ListItem key={id}>

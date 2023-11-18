@@ -9,6 +9,7 @@ padding: 12px;
 background-color: rgba(0, 0, 0, 0.6);
 border: 3px solid Lime;
 border-radius: 4px;
+margin-bottom: 10px;
 `;
 
 export const Label = styled.label`

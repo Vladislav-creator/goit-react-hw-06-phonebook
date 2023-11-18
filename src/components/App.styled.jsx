@@ -5,11 +5,13 @@ width: 400px;
 padding: 10px;
 margin-left: 100px;
 margin-right: auto;
+
 `;
 
 export const MainTitle = styled.h1`
 text-align: center;
 font-style: oblique;
+margin-bottom: 10px;
 `;
 
 export const ContactsTitle = styled.p`
